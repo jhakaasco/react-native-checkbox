@@ -10,8 +10,8 @@ import {
     TouchableHighlight
 } from 'react-native';
 
-const CB_ENABLED_IMAGE = require('./cb_enabled.png');
-const CB_DISABLED_IMAGE = require('./cb_disabled.png');
+const CB_ENABLED_IMAGE = require('./check.png');
+const CB_DISABLED_IMAGE = require('./uncheck.png');
 
 class CheckBox extends Component {
     constructor(props) {
